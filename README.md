@@ -14,9 +14,12 @@ Run `glide get github.com/username/reponame` inside the project folder
 ## Environment Variables
 Please add these environment variables to your `.bashrc`
 ```
-# this should point to your app path in vagrant
+# this should point to your app path
 export GIN_TEMPLATE_PATH=$GOPATH/src/github.com/yiziz/gin-template
 ```
+
+## Running migrations
+Run `go run main.go db:migrate` in your project folder
 
 ## Running the server
 Run `go run main.go` in your project folder
