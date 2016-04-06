@@ -1,0 +1,19 @@
+# go binary if built
+gin-template
+
+# tmp folder created by fresh
+tmp/
+
+# config
+config/application.yml
+config/database.yml
+
+# 3rd party gocode
+vendor/
+
+# temp files
+*~
+*.swp
+
+# cache
+.DS_Store

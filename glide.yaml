@@ -1,0 +1,9 @@
+package: github.com/yiziz/gin-template
+import:
+- package: github.com/bamzi/jobrunner
+- package: github.com/gin-gonic/gin
+- package: github.com/go-sql-driver/mysql
+- package: github.com/jinzhu/gorm
+- package: github.com/spf13/cobra
+- package: gopkg.in/yaml.v2
+- package: github.com/spf13/viper

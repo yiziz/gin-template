@@ -1,0 +1,11 @@
+development:
+  adapter: mysql
+  database: gin_template_development
+  username: root
+  password:
+
+test:
+  adapter: mysql
+  database: gin_template_test
+  username: root
+  password:
